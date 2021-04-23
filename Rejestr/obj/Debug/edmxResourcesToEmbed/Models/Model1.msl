@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="OsobyModelStoreContainer" CdmEntityContainer="OsobyEntities">
+    <EntitySetMapping Name="People">
+      <EntityTypeMapping TypeName="OsobyModel.People">
+        <MappingFragment StoreEntitySet="People">
+          <ScalarProperty Name="IdPeople" ColumnName="IdPeople" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Lastname" ColumnName="Lastname" />
+          <ScalarProperty Name="Date_Birth" ColumnName="Date Birth" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="City" ColumnName="City" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
